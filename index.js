@@ -1,5 +1,5 @@
-import CoronaVirus from "./dist";
+import CoronaVirus from "./src";
 
 document.querySelector("button").addEventListener("click", () => {
-  CoronaVirus.spread();
+  CoronaVirus.spread({ target: "#app" });
 });

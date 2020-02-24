@@ -10,7 +10,7 @@ const sourceAttributes = {
 };
 
 const CoronaVirus = {
-  __infect() {
+  __infect(target) {
     return new Promise(resolve => {
       if (document.getElementById(playerAttributes.id)) {
         return resolve();
@@ -22,12 +22,12 @@ const CoronaVirus = {
       }
       audioPlayer.setAttribute("id", playerAttributes.id);
       audioPlayer.appendChild(source);
-      document.body.appendChild(audioPlayer);
+      document.querySelector(target).appendChild(audioPlayer);
       resolve();
     });
   },
-  spread() {
-    this.__infect().then(() => {
+  spread({ target }) {
+    this.__infect(target).then(() => {
       const audioPlayer = document.getElementById(playerAttributes.id);
       audioPlayer.play();
     });
