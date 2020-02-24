@@ -3,7 +3,7 @@ const playerAttributes = {
 };
 
 const sourceAttributes = {
-  src: "https://www.fesliyanstudios.com/play-mp3/2974",
+  src: "http://dight310.byu.edu/media/audio/FreeLoops.com/2/2/Cough%20Sound%20Fx-4395-Free-Loops.com.mp3",
   type: "audio/mpeg"
 };
 
