@@ -20,6 +20,6 @@ import CoronaVirus from "corona-virus-js/dist";
 const scaryButton = document.querySelector("#my-scary-button");
 
 scaryButton.addEventListener("click", () => {
-  CoronaVirus.spread();
+  CoronaVirus.spread({ target: '#app' });
 });
 ```
