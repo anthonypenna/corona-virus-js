@@ -1,11 +1,9 @@
-const coughAudio = require("./assets/cough.mp3");
-
 const playerAttributes = {
   id: "covid-19"
 };
 
 const sourceAttributes = {
-  src: coughAudio,
+  src: "https://www.fesliyanstudios.com/play-mp3/2974",
   type: "audio/mpeg"
 };
 
