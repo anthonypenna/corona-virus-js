@@ -8,6 +8,6 @@
   },
   "scripts": {
     "start": "parcel index.html --port 8000",
-    "build": "parcel build src/index.js"
+    "build": "rm -rf dist/ && parcel build src/index.js"
   }
 }

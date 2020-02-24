@@ -1,4 +1,4 @@
-import CoronaVirus from "./src";
+import CoronaVirus from "./dist";
 
 document.querySelector("button").addEventListener("click", () => {
   CoronaVirus.spread();
