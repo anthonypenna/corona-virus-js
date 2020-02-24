@@ -1,0 +1,4 @@
+# folders
+.cache/
+node_modules/
+dist/

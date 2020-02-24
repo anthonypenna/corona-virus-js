@@ -1,0 +1,13 @@
+{
+  "name": "corona-virus-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  },
+  "scripts": {
+    "start": "parcel index.html --port 8000",
+    "build": "parcel build src/index.js"
+  }
+}
